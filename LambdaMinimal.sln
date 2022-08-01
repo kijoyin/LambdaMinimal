@@ -3,12 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaMinimalApi", "LambdaMinimalApi\LambdaMinimalApi.csproj", "{47820733-51CE-4F0B-A8FD-26F760670D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaMinimalApi", "LambdaMinimalApi\LambdaMinimalApi.csproj", "{47820733-51CE-4F0B-A8FD-26F760670D69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{24761E40-0DCB-4F38-A470-68949CA94A60}"
 	ProjectSection(SolutionItems) = preProject
 		LambdaMinimalApiCFT.json = LambdaMinimalApiCFT.json
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdbaBlazorCohosted.Server", "LamdbaBlazorCohosted\Server\LamdbaBlazorCohosted.Server.csproj", "{5E0C7474-1E3B-4C5F-951F-6CD17F7338FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdbaBlazorCohosted.Client", "LamdbaBlazorCohosted\Client\LamdbaBlazorCohosted.Client.csproj", "{93807948-5515-41E9-9D1D-A28D89C01F1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LamdbaBlazorCohosted.Shared", "LamdbaBlazorCohosted\Shared\LamdbaBlazorCohosted.Shared.csproj", "{2345CF88-2C6B-4AEA-B46E-28C1C792FE3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MinimalAPI", "MinimalAPI", "{F6041CA0-7112-4416-A9E4-471574D3491F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorASPNetHosted", "BlazorASPNetHosted", "{18BF297B-BA87-494E-AE80-6048EB924453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +30,27 @@ Global
 		{47820733-51CE-4F0B-A8FD-26F760670D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47820733-51CE-4F0B-A8FD-26F760670D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47820733-51CE-4F0B-A8FD-26F760670D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0C7474-1E3B-4C5F-951F-6CD17F7338FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0C7474-1E3B-4C5F-951F-6CD17F7338FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0C7474-1E3B-4C5F-951F-6CD17F7338FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0C7474-1E3B-4C5F-951F-6CD17F7338FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93807948-5515-41E9-9D1D-A28D89C01F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93807948-5515-41E9-9D1D-A28D89C01F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93807948-5515-41E9-9D1D-A28D89C01F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93807948-5515-41E9-9D1D-A28D89C01F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2345CF88-2C6B-4AEA-B46E-28C1C792FE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2345CF88-2C6B-4AEA-B46E-28C1C792FE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2345CF88-2C6B-4AEA-B46E-28C1C792FE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2345CF88-2C6B-4AEA-B46E-28C1C792FE3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47820733-51CE-4F0B-A8FD-26F760670D69} = {F6041CA0-7112-4416-A9E4-471574D3491F}
+		{5E0C7474-1E3B-4C5F-951F-6CD17F7338FC} = {18BF297B-BA87-494E-AE80-6048EB924453}
+		{93807948-5515-41E9-9D1D-A28D89C01F1C} = {18BF297B-BA87-494E-AE80-6048EB924453}
+		{2345CF88-2C6B-4AEA-B46E-28C1C792FE3F} = {18BF297B-BA87-494E-AE80-6048EB924453}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E1268A2-7993-4C78-AE5F-E4105E0E5069}
